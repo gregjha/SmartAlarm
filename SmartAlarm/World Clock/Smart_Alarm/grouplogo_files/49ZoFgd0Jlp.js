@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["TpuJn"]); }
+
+__d("messageRequestLoggerRe",["MessengerMessageRequestsTypedLogger"],(function a(b,c,d,e,f,g){"use strict";function h(i,j,k){new(c("MessengerMessageRequestsTypedLogger"))().setSurface("inbox").setFolderType(k).setAction("message_requests_thread_impression").addToExtraData("threads",i).setThreadKeyList(j).log();return 0}g.logItemImpression=h}),null);

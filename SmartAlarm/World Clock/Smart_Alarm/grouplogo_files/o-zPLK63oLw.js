@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["w6FWm"]); }
+
+__d("MessengerAsyncWrapper",["React","gkx"],(function a(b,c,d,e,f,g){"use strict";var h,i,j=c("gkx")("AT6uOpHsaIuXW82MiVMSo_xgA_Dx0-Ld7p3DjaI-6h1npleIfo2Ysa-KTi2_I4jhSTW9dTVJIrfmoYCZy4z-M8VA")?c("React").unstable_AsyncComponent:c("React").Component;h=babelHelpers.inherits(k,j);i=h&&h.prototype;k.prototype.render=function(){return this.props.children};function k(){h.apply(this,arguments)}f.exports=k}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["TPTer"]); }
+
+__d("BasicFBNux",["AsyncRequest","XBasicFBNuxDismissController","XBasicFBNuxViewController"],(function a(b,c,d,e,f,g){var h={subscribeHide:function i(j,k){j.subscribe("hide",h.onDismiss.bind(this,k))},onView:function i(j){var k=c("XBasicFBNuxViewController").getURIBuilder().setInt("nux_id",j).getURI();new(c("AsyncRequest"))().setURI(k).send()},onDismiss:function i(j){var k=c("XBasicFBNuxDismissController").getURIBuilder().setInt("nux_id",j).getURI();new(c("AsyncRequest"))().setURI(k).send()}};f.exports=h}),null);

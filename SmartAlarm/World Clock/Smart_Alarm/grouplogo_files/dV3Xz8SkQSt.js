@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["2tfoW"]); }
+
+__d("MessengerViewerContactMethodsWebGraphQLQuery",["WebGraphQLQueryBase"],(function a(b,c,d,e,f,g){"use strict";__p&&__p();f.exports=function(){__p&&__p();var h,i;h=babelHelpers.inherits(j,c("WebGraphQLQueryBase"));i=h&&h.prototype;j.__getDocID=function(){"use strict";return"1342409575886656"};j.getQueryID=function(){"use strict";return"304829463257788"};function j(){"use strict";h.apply(this,arguments)}return j}()}),null);
